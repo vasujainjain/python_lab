@@ -1,0 +1,7 @@
+fruits=["mango","apple","banana","orange","watermelon"];
+first_fruit=fruits[0];
+last_fruit=fruits[-1];
+middle_fruit=fruits[1:4];
+print(f"first fruit:{first_fruit}");
+print(f"last fruit:{last_fruit}");
+print(f"middle fruit:{middle_fruit}");
