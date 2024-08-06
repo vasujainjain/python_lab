@@ -1,0 +1,8 @@
+students={"Alice":21,"Bob":22,"Charlie":20,"David":23,"Eve":19};
+specific_student="Bob";
+age_of_specific_student=students.get(specific_student);
+print(f"age_specific_student:{age_of_specific_student}");
+new_student="steve";
+new_student_age=25;
+students[new_student]=new_student_age;
+print(f"{students}");
